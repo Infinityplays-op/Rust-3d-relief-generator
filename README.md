@@ -1,3 +1,4 @@
+<img width="1562" height="1046" alt="2026-11-26_18-43" src="https://github.com/user-attachments/assets/28bad617-e861-4b87-a49d-b73ba875b2f5" />
 # Rust CNC Relief Studio (`relief-gen`)
 
 A desktop 3D relief generator built in Rust for CNC machining, laser engraving, and 3D printing. Convert vector artwork (`.svg`), grayscale heightmaps, or standard 2D photographs (using local ONNX depth estimation) into watertight binary `.stl` meshes with real-time 3D previewing.
