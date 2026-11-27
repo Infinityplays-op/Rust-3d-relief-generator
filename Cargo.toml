@@ -1,0 +1,16 @@
+[package]
+name = "relief-gen"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+image = "0.25"
+ort = { version = "2.0.0-rc.15", features = ["download-binaries"] }
+resvg = "0.45"
+rfd = "0.15"
+three-d = { version = "0.18", features = ["egui-gui"] }
+
+[profile.release]
+opt-level = 3
+lto = true
+
